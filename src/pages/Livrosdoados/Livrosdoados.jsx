@@ -6,8 +6,9 @@ export default function Livrosdoados(){
             <h2>Livros Doados</h2>
             <section className={s.conteinerClass}>
                 <section>
-                    <img src={LivroProtagonistas} alt="imagem de um livro da sussan de ficção chamado protagonista" />
+                    <img src={LivroProtagonistas} alt=" A imagem mostra um livro da autora sussan de ficção,chamado O protagonista" />
                     <div>
+                        
                      <h3>O protagonista</h3>
                     <p>Susanne Andrade</p>
                     <p>Ficção</p>

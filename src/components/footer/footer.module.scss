@@ -24,3 +24,29 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 780px) {
+    .contatosFooter {
+      flex-direction: column;
+      justify-content: space-evenly;
+      font-size: 18px;
+  
+      nav {
+        width: 60%;
+  
+        img {
+          height: 3vh;
+        }
+      }
+    }
+  
+    .copyright {
+      height: 8vh;
+  
+      p {
+        width: 75%;
+        font-size: 13px;
+        text-align: center;
+    }
+  }
+}

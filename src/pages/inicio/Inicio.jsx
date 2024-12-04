@@ -12,20 +12,21 @@ export default function Inicio(){
             <section className={s.porqueDoarSection}>
                 <h2> Por que devo doar?</h2>
                 <section  className={s.conteinerCards}>
+                
                     <section>
-                    <img src={comunidade} alt="" />
+                    <img src={comunidade} alt="É uma imagem que mostra quatro icones de perfil em um circulo." />
                     <p>Estimula o hábito da leitura e o aprendizado contínuo.</p>
                     </section>
                     <section className={s.cardsMotivo}>
-                    <img src={leitura} alt="" />
+                    <img src={leitura} alt="É uma imagem que mostra um icones de perfil lendo um livro." />
                     <p>Estimula o hábito da leitura e o aprendizado contínuo.</p>
                     </section>
                     <section className={s.cardsMotivo}>
-                    <img src={transformacao} alt="" />
+                    <img src={transformacao} alt="É uma imagem que mostra equipes em  icones de perfil em grupo." />
                     <p>Estimula o hábito da leitura e o aprendizado contínuo.</p>
                     </section>
                     <section className={s.cardsMotivo}>
-                    <img src={Balanca} alt="" />
+                    <img src={Balanca} alt="É uma imagem que mostra uma balança de igualdade." />
                     <p>Estimula o hábito da leitura e o aprendizado contínuo.</p>
                     </section>
                 </section>
